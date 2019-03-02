@@ -1,0 +1,11 @@
+
+• Calculation time can be changed in: CalculatingScoreActivity.CalculateTime = 2500.
+• Questions should be added in QuizDBHelper.fillQuestionsTable()
+• Answer targets should be added in QuizContract.AnswerTargets class. (Also possible add method in AnswerActivity to get image from answer based on initial targets).
+• No further changes should be need. Except for UI and buttons. Images and DB.
+
+Appliction has DB from which it takes shuffled questions. Each question has three answer from which only one is correct.
+Correct - means that score + 1 will be added to question target, which is hold in DB and Question object.
+If user avoid all correct answers, random answer will be printed. Also, if two answer has the same value one will be chosen.
+Answer target with most score gets printed at the end, and saved into shared preferences.
+User can change animation mode in settings ON/OFF - to skip calculation and other UI effects.

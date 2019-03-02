@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">QuizApplicationTemplate</string>
+
+    <!--Start activity-->
+    <string name="last_answer">Last time you were: %1$s</string>
+
+    <!--Quiz activity-->
+    <string name="question_counter">Question: %1$s / %2$s</string>
+    <string name="quiz_back_pressed">Press back again to finish</string>
+
+    <!--Calculate score activity-->
+    <string name="calculating_score">Calculating score…</string>
+
+    <!--AnswerActivity-->
+    <string name="quiz_answer_calculating">Calculating answer…</string>
+    <string name="quiz_answer">You are: %1$s</string>
+    <string name="quiz_answer_button">Confirm</string>
+
+    <!--Pop up menu-->
+    <string name="menu_animation">Animation</string>
+    <string name="menu_about">About</string>
+
+    <string name="about_title">About</string>
+    <string name="about_description">This is simple non-official application made for fans - by fans.</string>
+    <string name="about_button">OK!</string>
+
+    <string name="animation_title">Animation settings</string>
+    <string name="animate">Animation ON</string>
+    <string name="no_animate">Animation OFF</string>
+    <string name="animation_confirm">Confirm</string>
+
+</resources>
